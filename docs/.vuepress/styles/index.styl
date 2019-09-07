@@ -1,0 +1,24 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+.home .hero img
+  max-width 450px!important
+
+// 覆盖第三方插件back-to-top样式
+$blue = #2196f3
+.global-ui {
+  .go-to-top {
+    color $blue
+    &:hover {
+      color tint($blue,15%)
+    }
+  }
+}
+
+.custom-block.tip {
+  background-color: #f3f5f7;
+  border-color: $blue !important;
+}

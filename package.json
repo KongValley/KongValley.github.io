@@ -1,0 +1,25 @@
+{
+  "name": "blogs",
+  "version": "0.0.1",
+  "title": "Chara's Blog",
+  "description": "介辈子不可能写代码的",
+  "main": "index.js",
+  "authors": {
+    "name": "Chara",
+    "email": ""
+  },
+  "repository": "/blogs",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "vuepress": "^1.0.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-cat": "^1.0.3"
+  }
+}
