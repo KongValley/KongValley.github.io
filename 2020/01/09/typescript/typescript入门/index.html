@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Chara's Blog - </title>
+    
+      <link rel="icon" href="/img/favicon.ico">
+    
+    <meta name="keyword"  content="">
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+      
+<link rel="stylesheet" href="/css/helpers.css">
+    
+    
+  
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body>
+  <div class="loading-wrapper" data-loading="true">
+    <div class="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="page" data-filter="true">
+    <div class="head" data-show="true">
+      <header class="head-header">
+  <div class="head-author">
+    <a href="/" class="head-author-link">
+      Chara&#39;s Blog</a>
+    </div>
+  <div class="head-right">
+    <!-- <div class="head-search">
+      <input class="head-searchK"></input>
+      <span class="head-searchT">
+        Search</span>
+    </div> -->
+    <button class="bar-wrap" id="bar-wrap-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <div class="head-about" id="head-about">
+      
+      <a class="head-about-link" href="/about">
+        关于</a>
+      
+    </div>
+  </div>
+</header>
+
+    </div>
+    <div class="main">
+      <div class="menu-bar-head" id="menu-bar" data-show="false">
+  <ul class="menu-bar-ul">
+    
+      
+      <li class="menu-bar-item">
+          
+            <a href="/archives">
+          
+              <span>Archives</span>
+            </a>
+      </li>
+    
+      
+      <li class="menu-bar-item">
+          
+              <a href="/categories/Posts/">
+          
+              <span>Posts</span>
+            </a>
+      </li>
+    
+      
+      <li class="menu-bar-item">
+          
+            <a href="/tags">
+          
+              <span>Tags</span>
+            </a>
+      </li>
+    
+    
+      <li class="menu-bar-item">
+        <a href="/about">
+          <span>关于</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+      <article class="post" id="post">
+  <header class="post-head">
+    <h1 class="post-title">
+      <a class="title" href="/2020/01/09/typescript/typescript%E5%85%A5%E9%97%A8/">
+        🦄TypeScript入门
+      </a>
+    </h1>
+  </header>
+  <div class="post-datetag">
+    <div class="post-date">
+      <time class="post-time" title="2020-01-09 00:30:20" datetime="2020-01-09T00:30:20.000Z" itemprop="datePublished">
+  2020-01-09</time>
+    </div>
+    |
+    <div class="post-tag">
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TypeScript-Basic/" rel="tag">TypeScript Basic</a></li></ul>
+
+    </div>
+    |
+    
+  
+
+    <div class="post-visit">
+      <span id="busuanzi_container_page_pv">
+        <span id="busuanzi_value_page_pv"></span>
+        hits
+      </span>
+    </div>
+
+  
+
+
+  </div>
+
+  
+    <div class="post-word-count">
+      
+
+本文共248字。
+
+    </div>
+  
+
+  
+    <div class="post-cc">
+      Copyright: 
+      
+        署名-非商业性使用-相同方式共享 | <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">CC BY-NC-SA 2.5 CN</a>
+      
+    </div>
+  
+
+  
+    <div class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc" data-expand="true">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="post-toc-number">1.</span> <span class="post-toc-text">简介</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Quick-Start"><span class="post-toc-number">2.</span> <span class="post-toc-text">Quick Start</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Base"><span class="post-toc-number">3.</span> <span class="post-toc-text">Base</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Web-Bookmark"><span class="post-toc-number">4.</span> <span class="post-toc-text">Web Bookmark</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Your-Environment"><span class="post-toc-number">5.</span> <span class="post-toc-text">Your Environment</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Install-TypeScript"><span class="post-toc-number">6.</span> <span class="post-toc-text">Install TypeScript</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Init-Project"><span class="post-toc-number">7.</span> <span class="post-toc-text">Init Project</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#VSCode-Auto-Compile"><span class="post-toc-number">8.</span> <span class="post-toc-text">VSCode Auto Compile</span></a></li></ol>
+        </nav>
+        <a class="post-toc-toggle" onclick="toggleToc(this, expend, collapse);" href="javascript:;">
+            Expand
+        </a>
+    </div>
+   
+
+
+  <div class="article-entry" itemprop="articleBody">
+    <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/TypeScript%E5%85%A5%E9%97%A8/Snipaste_2020-04-19_20-31-20.png"><br>从 npm 包的下载量就可以看出 TypeScript 已经逐渐成为前端必不可少的工具了，都2020年了，再不学，就只能2021年学了🤣</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><ul>
+<li><a href="/typescript/typescript%E5%85%A5%E9%97%A8">🦄TypeScript 入门</a></li>
+</ul>
+<h2 id="Base"><a href="#Base" class="headerlink" title="Base"></a>Base</h2><ul>
+<li><a href="/typescript/typescript-webpack">🌈TypeScript + Webpack</a></li>
+<li><a href="/typescript/typescript%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B">🌈TypeScript 基础类型</a></li>
+</ul>
+<h2 id="Web-Bookmark"><a href="#Web-Bookmark" class="headerlink" title="Web Bookmark"></a>Web Bookmark</h2><p><a target="_blank" rel="noopener" href="https://github.com/KongValley/ToLearnTypeScript/tree/master/types">GitHub仓库：基础类型</a></p>
+<h2 id="Your-Environment"><a href="#Your-Environment" class="headerlink" title="Your Environment"></a>Your Environment</h2><p><strong>💡你需要做的准备：</strong></p>
+<ul>
+<li>Node.js &gt; 8.0，最好是最新的稳定版</li>
+<li>一个包管理工具 npm 或者 yarn</li>
+<li>一个文本编辑器或者 IDE</li>
+</ul>
+<h2 id="Install-TypeScript"><a href="#Install-TypeScript" class="headerlink" title="Install TypeScript"></a>Install TypeScript</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install TypeScript -g</span><br></pre></td></tr></table></figure>
+
+<h2 id="Init-Project"><a href="#Init-Project" class="headerlink" title="Init Project"></a>Init Project</h2><p>先创建下目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> ts-study &amp;&amp; <span class="built_in">cd</span> ts-study</span><br></pre></td></tr></table></figure>
+
+<p>再创建 src 目录（一般用来存放项目代码）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> src &amp;&amp; <span class="built_in">touch</span> src/index.ts</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意：</strong> 如果你的系统是Windows的话，<code>touch</code>并不会生效，你可以用<code>New-Item</code>来代替<code>touch</code>，<a target="_blank" rel="noopener" href="https://github.com/PowerShell/PowerShell/issues/8621">查看相关issue</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">New-Alias <span class="built_in">touch</span> New-Item</span><br></pre></td></tr></table></figure>
+
+<p>初始化项目 package.json</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init</span><br></pre></td></tr></table></figure>
+
+<p>初始化 ts 配置文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tsc --init</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="VSCode-Auto-Compile"><a href="#VSCode-Auto-Compile" class="headerlink" title="VSCode Auto Compile"></a>VSCode Auto Compile</h2><p>在终端下拉菜单中选择运行任务</p>
+<p><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/TypeScript%E5%85%A5%E9%97%A8/ts-1.png"></p>
+<p>选择<code>tsc:监视</code>（当你的文件发生改动时会自动编译）</p>
+<p><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/TypeScript%E5%85%A5%E9%97%A8/ts-2.png"></p>
+
+  </div>
+</article>
+
+    </div>
+    <footer class="footer-nav">
+      <div class="footer">
+        <div class="back-top" id="back-top" title="Back to top">
+          <i class="icon icon-chevron-bar-up"></i>
+        </div>
+        <span class="footer-msg">
+  
+    <div class="icp">
+      <img src="/img/icp.png" alt="icp Record">
+      <a href="https://beian.miit.gov.cn/" class="icp-text" target="_blank">
+        浙ICP备2021022119号
+      </a>
+    </div>
+  
+
+  
+
+  
+  
+
+    <div>
+      <span id="busuanzi_container_site_pv">
+        <span id="busuanzi_value_site_pv"></span> PV
+      </span>
+      <span id="busuanzi_container_site_uv">
+        <span id="busuanzi_value_site_uv"></span> UV
+      </span>
+    </div>
+
+  
+
+
+
+  2020
+  
+  
+    <span class="timeDivide">-</span>
+    2022
+  
+  大鹏.
+  Power by
+  <a href="https://hexo.io/" target="_blank" rel="external nofollow">Hexo</a>
+  and
+  <a href="https://github.com/Cerallin/hexo-theme-yuzu"
+      target="_blank" rel="external nofollow" title="v2.3">
+    Theme Yuzu</a>.
+</span>
+
+      </div>
+    </footer>
+    
+
+
+<script src="/js/clipboard/clipboard.min.js"></script>
+
+
+<script src="/js/theme.js"></script>
+
+
+<script src="/js/index.js"></script>
+
+
+
+  
+  <script>
+      expend = "Expand";
+      collapse = "Collapse";
+  </script>
+  
+  
+<script src="/js/toc.js"></script>
+
+
+
+
+
+  </div>
+</body>

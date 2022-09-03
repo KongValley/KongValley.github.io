@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Chara's Blog - </title>
+    
+      <link rel="icon" href="/img/favicon.ico">
+    
+    <meta name="keyword"  content="">
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+      
+<link rel="stylesheet" href="/css/helpers.css">
+    
+    
+  
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body>
+  <div class="loading-wrapper" data-loading="true">
+    <div class="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="page" data-filter="true">
+    <div class="head" data-show="true">
+      <header class="head-header">
+  <div class="head-author">
+    <a href="/" class="head-author-link">
+      Chara&#39;s Blog</a>
+    </div>
+  <div class="head-right">
+    <!-- <div class="head-search">
+      <input class="head-searchK"></input>
+      <span class="head-searchT">
+        Search</span>
+    </div> -->
+    <button class="bar-wrap" id="bar-wrap-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <div class="head-about" id="head-about">
+      
+      <a class="head-about-link" href="/about">
+        关于</a>
+      
+    </div>
+  </div>
+</header>
+
+    </div>
+    <div class="main">
+      <div class="menu-bar-head" id="menu-bar" data-show="false">
+  <ul class="menu-bar-ul">
+    
+      
+      <li class="menu-bar-item">
+          
+            <a href="/archives">
+          
+              <span>Archives</span>
+            </a>
+      </li>
+    
+      
+      <li class="menu-bar-item">
+          
+              <a href="/categories/Posts/">
+          
+              <span>Posts</span>
+            </a>
+      </li>
+    
+      
+      <li class="menu-bar-item">
+          
+            <a href="/tags">
+          
+              <span>Tags</span>
+            </a>
+      </li>
+    
+    
+      <li class="menu-bar-item">
+        <a href="/about">
+          <span>关于</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+      <article class="post" id="post">
+  <header class="post-head">
+    <h1 class="post-title">
+      <a class="title" href="/2020/02/07/typescript/typescript-webpack/">
+        🌈TypeScript + Webpack
+      </a>
+    </h1>
+  </header>
+  <div class="post-datetag">
+    <div class="post-date">
+      <time class="post-time" title="2020-02-07 19:03:08" datetime="2020-02-07T19:03:08.000Z" itemprop="datePublished">
+  2020-02-07</time>
+    </div>
+    |
+    <div class="post-tag">
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TypeScript-Basic/" rel="tag">TypeScript Basic</a></li></ul>
+
+    </div>
+    |
+    
+  
+
+    <div class="post-visit">
+      <span id="busuanzi_container_page_pv">
+        <span id="busuanzi_value_page_pv"></span>
+        hits
+      </span>
+    </div>
+
+  
+
+
+  </div>
+
+  
+    <div class="post-word-count">
+      
+
+本文共378字。
+
+    </div>
+  
+
+  
+    <div class="post-cc">
+      Copyright: 
+      
+        署名-非商业性使用-相同方式共享 | <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">CC BY-NC-SA 2.5 CN</a>
+      
+    </div>
+  
+
+  
+    <div class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc" data-expand="true">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Install-Typescript"><span class="post-toc-number">1.</span> <span class="post-toc-text">Install Typescript</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Install-Webpack"><span class="post-toc-number">2.</span> <span class="post-toc-text">Install Webpack</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Install-Plugins"><span class="post-toc-number">3.</span> <span class="post-toc-text">Install Plugins</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Add-config-file"><span class="post-toc-number">4.</span> <span class="post-toc-text">Add config file</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Install-cross-env"><span class="post-toc-number">5.</span> <span class="post-toc-text">Install cross-env</span></a></li></ol>
+        </nav>
+        <a class="post-toc-toggle" onclick="toggleToc(this, expend, collapse);" href="javascript:;">
+            Expand
+        </a>
+    </div>
+   
+
+
+  <div class="article-entry" itemprop="articleBody">
+    <h2 id="Install-Typescript"><a href="#Install-Typescript" class="headerlink" title="Install Typescript"></a>Install Typescript</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i typescript -S</span><br></pre></td></tr></table></figure>
+
+<h2 id="Install-Webpack"><a href="#Install-Webpack" class="headerlink" title="Install Webpack"></a>Install Webpack</h2><p>安装下本地开发三件套</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i webpack webpack-cli webpack-dev-server -D</span><br></pre></td></tr></table></figure>
+
+<h2 id="Install-Plugins"><a href="#Install-Plugins" class="headerlink" title="Install Plugins"></a>Install Plugins</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i ts-loader clean-webpack-plugin html-webpack-plugin -D</span><br></pre></td></tr></table></figure>
+
+<h2 id="Add-config-file"><a href="#Add-config-file" class="headerlink" title="Add config file"></a>Add config file</h2><p>新建 <code>build</code> 文件夹，在文件夹里新建 <code>webpack.config.js</code></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title class_">HtmlWebpackPlugin</span> = <span class="built_in">require</span>(<span class="string">&#x27;html-webpack-plugin&#x27;</span>)</span><br><span class="line"><span class="keyword">const</span> &#123; <span class="title class_">CleanWebpackPlugin</span> &#125; = <span class="built_in">require</span>(<span class="string">&#x27;clean-webpack-plugin&#x27;</span>)</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">entry</span>: <span class="string">&quot;./src/index.ts&quot;</span>, <span class="comment">// 指定入口文件</span></span><br><span class="line">  <span class="attr">output</span>: &#123;</span><br><span class="line">    <span class="attr">filename</span>: <span class="string">&quot;main.js&quot;</span> <span class="comment">// 指定输出文件</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">resolve</span>: &#123;</span><br><span class="line">    <span class="attr">extensions</span>: [</span><br><span class="line">      <span class="string">&quot;.ts&quot;</span>,</span><br><span class="line">      <span class="string">&quot;.tsx&quot;</span>,</span><br><span class="line">      <span class="string">&quot;.js&quot;</span></span><br><span class="line">    ]</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">module</span>: &#123;</span><br><span class="line">    <span class="attr">rules</span>: [&#123;</span><br><span class="line">      <span class="attr">test</span>: <span class="regexp">/\.tsx?$/</span>, <span class="comment">// 匹配ts文件</span></span><br><span class="line">      <span class="attr">use</span>: <span class="string">&#x27;ts-loader&#x27;</span>,</span><br><span class="line">      <span class="attr">exclude</span>: <span class="regexp">/node_modules/</span> <span class="comment">// 除外 node_modules 目录</span></span><br><span class="line">    &#125;]</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">devtool</span>: process.<span class="property">env</span>.<span class="property">NODE_ENV</span> === <span class="string">&#x27;production&#x27;</span> ? <span class="literal">false</span> : <span class="string">&#x27;source-map&#x27;</span>, <span class="comment">// 如果是生产环境不输出 source map，如果是开发环境生成 source map</span></span><br><span class="line">  <span class="attr">devServer</span>: &#123;</span><br><span class="line">    <span class="attr">contentBase</span>: <span class="string">&#x27;./dist&#x27;</span>, <span class="comment">// 告诉服务器从哪个目录中提供内容</span></span><br><span class="line">    <span class="attr">stats</span>: <span class="string">&#x27;errors-only&#x27;</span>, <span class="comment">// 只显示编译过程中错误信息</span></span><br><span class="line">    <span class="attr">compress</span>: <span class="literal">false</span>, <span class="comment">// 不启用 gzip 压缩</span></span><br><span class="line">    <span class="attr">host</span>: <span class="string">&#x27;localhost&#x27;</span>, <span class="comment">// 地址</span></span><br><span class="line">    <span class="attr">port</span>: <span class="string">&#x27;8086&#x27;</span> <span class="comment">// 端口</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">plugins</span>: [</span><br><span class="line">    <span class="keyword">new</span> <span class="title class_">CleanWebpackPlugin</span>(&#123;</span><br><span class="line">      <span class="attr">cleanOnceBeforeBuildPatterns</span>: [<span class="string">&#x27;./dist&#x27;</span>] <span class="comment">// 每次打包前清理 dist 目录</span></span><br><span class="line">    &#125;),</span><br><span class="line">    <span class="keyword">new</span> <span class="title class_">HtmlWebpackPlugin</span>(&#123;</span><br><span class="line">      <span class="attr">template</span>: <span class="string">&#x27;./src/template/index.html&#x27;</span> <span class="comment">// 作为模版 html</span></span><br><span class="line">    &#125;)</span><br><span class="line">  ]</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Install-cross-env"><a href="#Install-cross-env" class="headerlink" title="Install cross-env"></a>Install cross-env</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i cross-env -D</span><br></pre></td></tr></table></figure>
+
+<p>用来给 <code>package.json</code> 里的 <code>script</code> 添加参数</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;script&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;start&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>这样我们就可以用 <code>process.env.NODE_ENV</code> 接受到 <code>development</code> 这个值。<br>在开发中我们一般用 <code>development</code> 和 <code>production</code> 来针对开发环境和生产环境进行不同配置。<br>接下来在 <code>webpack.config.js</code> 内写入以下内容</p>
+
+  </div>
+</article>
+
+    </div>
+    <footer class="footer-nav">
+      <div class="footer">
+        <div class="back-top" id="back-top" title="Back to top">
+          <i class="icon icon-chevron-bar-up"></i>
+        </div>
+        <span class="footer-msg">
+  
+    <div class="icp">
+      <img src="/img/icp.png" alt="icp Record">
+      <a href="https://beian.miit.gov.cn/" class="icp-text" target="_blank">
+        浙ICP备2021022119号
+      </a>
+    </div>
+  
+
+  
+
+  
+  
+
+    <div>
+      <span id="busuanzi_container_site_pv">
+        <span id="busuanzi_value_site_pv"></span> PV
+      </span>
+      <span id="busuanzi_container_site_uv">
+        <span id="busuanzi_value_site_uv"></span> UV
+      </span>
+    </div>
+
+  
+
+
+
+  2020
+  
+  
+    <span class="timeDivide">-</span>
+    2022
+  
+  大鹏.
+  Power by
+  <a href="https://hexo.io/" target="_blank" rel="external nofollow">Hexo</a>
+  and
+  <a href="https://github.com/Cerallin/hexo-theme-yuzu"
+      target="_blank" rel="external nofollow" title="v2.3">
+    Theme Yuzu</a>.
+</span>
+
+      </div>
+    </footer>
+    
+
+
+<script src="/js/clipboard/clipboard.min.js"></script>
+
+
+<script src="/js/theme.js"></script>
+
+
+<script src="/js/index.js"></script>
+
+
+
+  
+  <script>
+      expend = "Expand";
+      collapse = "Collapse";
+  </script>
+  
+  
+<script src="/js/toc.js"></script>
+
+
+
+
+
+  </div>
+</body>
