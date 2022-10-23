@@ -130,7 +130,7 @@
     <div class="post-visit">
       <span id="busuanzi_container_page_pv">
         <span id="busuanzi_value_page_pv"></span>
-        hits
+        访问
       </span>
     </div>
 
@@ -150,7 +150,7 @@
 
   
     <div class="post-cc">
-      Copyright: 
+      版权声明：
       
         署名-非商业性使用-相同方式共享 | <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">CC BY-NC-SA 2.5 CN</a>
       
@@ -164,24 +164,20 @@
             <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Install-PowerShell-Preview"><span class="post-toc-number">1.</span> <span class="post-toc-text">Install PowerShell Preview</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%AE%89%E8%A3%85-oh-my-posh"><span class="post-toc-number">2.</span> <span class="post-toc-text">安装 oh-my-posh</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%86%99%E5%85%A5%E5%88%B0%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="post-toc-number">3.</span> <span class="post-toc-text">写入到配置文件</span></a></li></ol>
         </nav>
         <a class="post-toc-toggle" onclick="toggleToc(this, expend, collapse);" href="javascript:;">
-            Expand
+            展开
         </a>
     </div>
    
 
 
   <div class="article-entry" itemprop="articleBody">
-    <h2 id="Install-PowerShell-Preview"><a href="#Install-PowerShell-Preview" class="headerlink" title="Install PowerShell Preview"></a>Install PowerShell Preview</h2><p>Windows 用户我个人推荐实用 choco 安装，方便快捷，需要使用管理员权限执行安装命令<br><a target="_blank" rel="noopener" href="https://chocolatey.org/packages/powershell-preview">PowerShell Preview</a></p>
-<br>
-
+    <h2 id="Install-PowerShell-Preview"><a href="#Install-PowerShell-Preview" class="headerlink" title="Install PowerShell Preview"></a>Install PowerShell Preview</h2><p>Windows 用户我个人推荐使用 choco 安装 <a target="_blank" rel="noopener" href="https://chocolatey.org/packages/powershell-preview">PowerShell Preview</a>，方便快捷，需要使用管理员权限执行安装命令。</p>
 <h2 id="安装-oh-my-posh"><a href="#安装-oh-my-posh" class="headerlink" title="安装 oh-my-posh"></a>安装 oh-my-posh</h2><p>给 PowerShell 权限去执行任意脚本</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> Bypass</span><br></pre></td></tr></table></figure>
 <p>安装 <code>posh-git</code></p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure>
 <p>安装 <code>oh-my-posh</code></p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> <span class="built_in">oh</span><span class="literal">-my-posh</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure>
-
-<br>
 
 <h2 id="写入到配置文件"><a href="#写入到配置文件" class="headerlink" title="写入到配置文件"></a>写入到配置文件</h2><p>先获取文件路径<br><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/powershell%E8%87%AA%E7%94%A8/1.png"></p>
 <p>这个文件不存在的话就新建一个，写入以下内容：</p>
@@ -198,7 +194,7 @@
         <span class="footer-msg">
   
     <div class="icp">
-      <img src="/img/icp.png" alt="icp Record">
+      <img src="/img/icp.png" alt="icp备案">
       <a href="https://beian.miit.gov.cn/" class="icp-text" target="_blank">
         浙ICP备2021022119号
       </a>
@@ -255,8 +251,8 @@
 
   
   <script>
-      expend = "Expand";
-      collapse = "Collapse";
+      expend = "展开";
+      collapse = "收起";
   </script>
   
   
