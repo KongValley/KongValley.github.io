@@ -23,7 +23,7 @@
   
 
 
-<meta name="generator" content="Hexo 6.2.0"></head>
+<meta name="generator" content="Hexo 6.3.0"></head>
 
 
 <body>
@@ -63,20 +63,13 @@
 
     </div>
     <div class="main">
-      <div class="menu-bar-head" id="menu-bar" data-show="false">
+      
+
+<div class="menu-bar-head" id="menu-bar" data-show="false">
   <ul class="menu-bar-ul">
     
       
-      <li class="menu-bar-item">
-          
-            <a href="/archives">
-          
-              <span>Archives</span>
-            </a>
-      </li>
-    
-      
-      <li class="menu-bar-item">
+      <li class="menu-bar-item ">
           
               <a href="/categories/TypeScript/">
           
@@ -85,7 +78,16 @@
       </li>
     
       
-      <li class="menu-bar-item">
+      <li class="menu-bar-item  border ">
+          
+            <a href="/archives">
+          
+              <span>Archives</span>
+            </a>
+      </li>
+    
+      
+      <li class="menu-bar-item ">
           
             <a href="/tags">
           
@@ -141,7 +143,7 @@
     <div class="post-word-count">
       
 
-本文共120字。
+本文共121字。
 
     </div>
   
@@ -169,19 +171,20 @@
 
 
   <div class="article-entry" itemprop="articleBody">
-    <h2 id="Install-PowerShell-Preview"><a href="#Install-PowerShell-Preview" class="headerlink" title="Install PowerShell Preview"></a>Install PowerShell Preview</h2><p>Windows用户我个人推荐实用choco安装，方便快捷，需要使用管理员权限执行安装命令<br><a target="_blank" rel="noopener" href="https://chocolatey.org/packages/powershell-preview">PowerShell Preview</a></p>
+    <h2 id="Install-PowerShell-Preview"><a href="#Install-PowerShell-Preview" class="headerlink" title="Install PowerShell Preview"></a>Install PowerShell Preview</h2><p>Windows 用户我个人推荐实用 choco 安装，方便快捷，需要使用管理员权限执行安装命令<br><a target="_blank" rel="noopener" href="https://chocolatey.org/packages/powershell-preview">PowerShell Preview</a></p>
 <br>
 
 <h2 id="安装-oh-my-posh"><a href="#安装-oh-my-posh" class="headerlink" title="安装 oh-my-posh"></a>安装 oh-my-posh</h2><p>给 PowerShell 权限去执行任意脚本</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> Bypass</span><br></pre></td></tr></table></figure>
 <p>安装 <code>posh-git</code></p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure>
-<p>安装<code>oh-my-posh</code></p>
+<p>安装 <code>oh-my-posh</code></p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> <span class="built_in">oh</span><span class="literal">-my-posh</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure>
 
 <br>
 
-<h2 id="写入到配置文件"><a href="#写入到配置文件" class="headerlink" title="写入到配置文件"></a>写入到配置文件</h2><p>先获取文件路径<br><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/powershell%E8%87%AA%E7%94%A8/1.png"><br>这个文件不存在的话就新建一个，写入以下内容：</p>
+<h2 id="写入到配置文件"><a href="#写入到配置文件" class="headerlink" title="写入到配置文件"></a>写入到配置文件</h2><p>先获取文件路径<br><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/powershell%E8%87%AA%E7%94%A8/1.png"></p>
+<p>这个文件不存在的话就新建一个，写入以下内容：</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Import-Module</span> posh<span class="literal">-git</span></span><br><span class="line"><span class="built_in">Import-Module</span> <span class="built_in">oh</span><span class="literal">-my-posh</span></span><br><span class="line"><span class="built_in">Set-Theme</span> Sorin</span><br></pre></td></tr></table></figure>
   </div>
 </article>

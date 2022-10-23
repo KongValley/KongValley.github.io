@@ -1,30 +1,31 @@
 .tag-title {
   max-width: content-max-width;
-  margin: 0.5em auto 1em auto;
+  margin: 0.5em auto 0.5em auto;
 }
 .tags-wrap {
   max-width: content-max-width;
   margin: 0 auto;
 }
 .tags-wrap .tags {
-  padding-bottom: 5px;
+  padding-bottom: 0.5em;
 }
 .tags-wrap .tags a {
   padding-right: 10px;
   line-height: 25px;
+  display: inline-block;
 }
 .tags-wrap .one-tag-list .tag-text {
-  margin: 20px 0 10px 0;
+  margin: 1em 0 0.5em 0;
   font-size: title-font-size;
 }
 .tags-wrap .one-tag-list .post-preview {
-  line-height: 35px;
+  margin-bottom: 0.5em;
 }
 .tags-wrap .one-tag-list .post-preview .tag-item-date {
   display: block;
   float: left;
 }
 .tags-wrap .one-tag-list .post-preview .post-title {
-  display: inline-block;
+  display: block;
   text-indent: 2em;
 }

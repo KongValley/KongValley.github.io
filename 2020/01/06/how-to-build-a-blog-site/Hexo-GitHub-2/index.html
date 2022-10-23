@@ -23,7 +23,7 @@
   
 
 
-<meta name="generator" content="Hexo 6.2.0"></head>
+<meta name="generator" content="Hexo 6.3.0"></head>
 
 
 <body>
@@ -63,20 +63,13 @@
 
     </div>
     <div class="main">
-      <div class="menu-bar-head" id="menu-bar" data-show="false">
+      
+
+<div class="menu-bar-head" id="menu-bar" data-show="false">
   <ul class="menu-bar-ul">
     
       
-      <li class="menu-bar-item">
-          
-            <a href="/archives">
-          
-              <span>Archives</span>
-            </a>
-      </li>
-    
-      
-      <li class="menu-bar-item">
+      <li class="menu-bar-item ">
           
               <a href="/categories/TypeScript/">
           
@@ -85,7 +78,16 @@
       </li>
     
       
-      <li class="menu-bar-item">
+      <li class="menu-bar-item  border ">
+          
+            <a href="/archives">
+          
+              <span>Archives</span>
+            </a>
+      </li>
+    
+      
+      <li class="menu-bar-item ">
           
             <a href="/tags">
           
@@ -169,12 +171,12 @@
 
 
   <div class="article-entry" itemprop="articleBody">
-    <p>Hexo官网里面有都文档说明，首先打开 Git Bash，先定位到你要放博客的文件夹，建议不要那种需要管理员权限才能新建文件的文件夹，我自己是在<code>D:\My-blog</code>里</p>
+    <p>Hexo官网里面有都文档说明，首先打开 Git Bash，先定位到你要放博客的文件夹，建议不要那种需要管理员权限才能新建文件的文件夹，我自己是在 <code>D:\My-blog</code> 里</p>
 <h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo官网</a>里面有都文档说明，首先打开 Git Bash ，先定位到你要放博客的文件夹，建议<strong>不要</strong>那种需要管理员权限才能新建文件的文件夹，我自己是在<code>D:\My-blog</code>里</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> 文件夹</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/hexo%E9%85%8D%E7%BD%AE/2-1.png?x-oss-process=style/2333"></p>
-<p>这样就定为到了<code>D:\My-blog</code>，然后开始安装 Hexo</p>
+<p>这样就定为到了 <code>D:\My-blog</code>，然后开始安装 Hexo</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 <p>安装好 Hexo，输入：</p>
@@ -188,7 +190,7 @@
 
 <p>安装完成后，你的文件夹里就会变成这样</p>
 <p><img src="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/hexo%E9%85%8D%E7%BD%AE/2-3.png?x-oss-process=style/2333"></p>
-<p>这里的_config.yml是你的站点配置文件，你可以打开它修改你的站点信息（每个：后面都有一个空格）</p>
+<p>这里的 <code>_config.yml</code> 是你的站点配置文件，你可以打开它修改你的站点信息（每个：后面都有一个空格）</p>
 <p><strong>repo中填入你的仓库地址</strong></p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">http://yoursite.com</span> <span class="comment"># 把这个改成你的github地址（例如：http://kongvalley.github.io）</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">git@github.com:KongValley/KongValley.github.io.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 
