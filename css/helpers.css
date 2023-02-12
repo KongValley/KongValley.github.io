@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 .text-indent-none {
-  text-indent: 0;
+  text-indent: 0 !important;
 }
 .display-block {
   display: block;
@@ -651,6 +651,12 @@
   .post .md\:text-left.text-justify + figcaption {
     text-align: left;
   }
+  .post .md\:text-left.text-center {
+    text-align: left;
+  }
+  .post .md\:text-left.text-center + figcaption {
+    text-align: left;
+  }
 }
 .post .text-right {
   text-align: right;
@@ -681,6 +687,12 @@
     text-align: right;
   }
   .post .md\:text-right.text-justify + figcaption {
+    text-align: right;
+  }
+  .post .md\:text-right.text-center {
+    text-align: right;
+  }
+  .post .md\:text-right.text-center + figcaption {
     text-align: right;
   }
 }
@@ -714,6 +726,50 @@
   }
   .post .md\:text-justify.text-justify + figcaption {
     text-align: justify;
+  }
+  .post .md\:text-justify.text-center {
+    text-align: justify;
+  }
+  .post .md\:text-justify.text-center + figcaption {
+    text-align: justify;
+  }
+}
+.post .text-center {
+  text-align: center;
+}
+.post .text-center + figcaption {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .post .md\:text-center {
+    text-align: center;
+  }
+  .post .md\:text-center + figcaption {
+    text-align: center;
+  }
+  .post .md\:text-center.text-left {
+    text-align: center;
+  }
+  .post .md\:text-center.text-left + figcaption {
+    text-align: center;
+  }
+  .post .md\:text-center.text-right {
+    text-align: center;
+  }
+  .post .md\:text-center.text-right + figcaption {
+    text-align: center;
+  }
+  .post .md\:text-center.text-justify {
+    text-align: center;
+  }
+  .post .md\:text-center.text-justify + figcaption {
+    text-align: center;
+  }
+  .post .md\:text-center.text-center {
+    text-align: center;
+  }
+  .post .md\:text-center.text-center + figcaption {
+    text-align: center;
   }
 }
 .post .overflow-hidden,
