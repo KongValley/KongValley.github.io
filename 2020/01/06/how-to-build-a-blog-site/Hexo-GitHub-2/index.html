@@ -34,7 +34,7 @@
 <meta property="og:image" content="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/hexo%E9%85%8D%E7%BD%AE/2-2.png?x-oss-process=style/2333">
 <meta property="og:image" content="https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/hexo%E9%85%8D%E7%BD%AE/2-3.png?x-oss-process=style/2333">
 <meta property="article:published_time" content="2020-01-06T17:53:45.000Z">
-<meta property="article:modified_time" content="2023-08-27T16:46:35.085Z">
+<meta property="article:modified_time" content="2023-08-29T06:45:08.083Z">
 <meta property="article:author" content="大鹏">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="GitHub Page">
@@ -141,15 +141,13 @@
 <p>新建文章</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 新建文章</span></span><br><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>新建的 markdown 文件会在 source&#x2F;_posts 中</p>
+<p>新建的 markdown 文件会在 <code>source/_posts</code> 中</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 进行本地浏览博客</span></span><br><span class="line"><span class="comment"># 在Hexo 3.0 后server被单独出来了，需要安装server</span></span><br><span class="line">npm install hexo-server --save</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p>在浏览器中输入<a target="_blank" rel="noopener" href="http://localhost:4000/%EF%BC%8C%E4%BD%A0%E5%B0%B1%E8%83%BD%E7%9C%8B%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%BA%86">http://localhost:4000/，你就能看到自己的博客了</a></p>
-<br>
-
+<p>在浏览器中输入 <code>http://localhost:4000/ </code> ，你就能看到自己的博客了</p>
 <h2 id="Publish-blog"><a href="#Publish-blog" class="headerlink" title="Publish blog"></a>Publish blog</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 将你的博客发布到你的gtihub主页上</span></span><br><span class="line"><span class="comment"># 在Hexo 3.0版本后deploy git被分开的，需要安装deploy git</span></span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo g</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>你就可以登录你的 xxxxxxx.github.io 看看自己的博客了</p>
+<p>你就可以登录你的 <code>http://xxxxxxx.github.io</code> 看看自己的博客了</p>
 
 
 
